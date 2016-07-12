@@ -1,0 +1,66 @@
+﻿.fadeIn.ng-enter {
+    -moz-transition: 0.25s linear all;
+    -webkit-transition: 0.25s linear all;
+    -o-transition: 0.25s linear all;
+    transition: 0.25s linear all;
+    opacity: 0;
+}
+
+    /* The finishing CSS styles for the enter animation */
+    .fadeIn.ng-enter.ng-enter-active {
+        opacity: 1;
+    }
+
+.fadeIn.ng-leave {
+    -moz-transition: 0.01s linear all;
+    -webkit-transition: 0.01s linear all;
+    -o-transition: 0.01s linear all;
+    transition: 0.01s linear all;
+    opacity: 1;
+}
+
+    .fadeIn.ng-leave.ng-leave-active {
+        opacity: 0;
+    }
+
+.animate-show {
+    opacity: 1;
+}
+
+    .animate-show.ng-hide-add {
+        -moz-transition: 0.05s linear all;
+        -webkit-transition: 0.05s linear all;
+        -o-transition: 0.05s linear all;
+        transition: 0.05s linear all;
+    }
+
+    .animate-show.ng-hide-remove {
+        -moz-transition: 0.25s linear all;
+        -webkit-transition: 0.25s linear all;
+        -o-transition: 0.25s linear all;
+        transition: 0.25s linear all;
+    }
+
+    .animate-show.ng-hide {
+        opacity: 0;
+    }
+
+.validation-messages {
+    -moz-transition: 0.25s linear all;
+    -webkit-transition: 0.25s linear all;
+    -o-transition: 0.25s linear all;
+    transition: 0.25s linear all;
+    opacity: 0;
+}
+
+    .validation-messages.ng-active {
+        opacity: 1;
+    }
+
+    .validation-messages.ng-inactive {
+        -moz-transition: 0.25s linear all;
+        -webkit-transition: 0.25s linear all;
+        -o-transition: 0.25s linear all;
+        transition: 0.25s linear all;
+        opacity: 0;
+    }
