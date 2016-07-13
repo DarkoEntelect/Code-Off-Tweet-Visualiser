@@ -1,3 +1,9 @@
+Here is my take on the Tweet Visualiser for the JSinSA Conference. 
+
+Darko Arnautovic - Entelect
+
+
+
 ![Code Off](http://www.prolificidea.com/assets/img/code_off-logo.png "Code Off")
 
 # Code Off - JSinSA Tweet Visualiser
